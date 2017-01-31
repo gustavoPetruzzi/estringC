@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1485894812 source:i:\documents and settings\gustavo\escritorio\prog\c\estring\main.c
+	<stdio.h>
+	<stdlib.h>
+	"estring.h"
+	<string.h>
+
+1485894838 source:i:\documents and settings\gustavo\escritorio\prog\c\estring\estring.c
+	<stdio.h>
+	"estring.h"
+
+1485894059 i:\documents and settings\gustavo\escritorio\prog\c\estring\estring.h
+
