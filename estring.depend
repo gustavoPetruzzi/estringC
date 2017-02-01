@@ -5,9 +5,25 @@
 	"estring.h"
 	<string.h>
 
+1485894812 
+
 1485894838 source:i:\documents and settings\gustavo\escritorio\prog\c\estring\estring.c
 	<stdio.h>
 	"estring.h"
 
+1485894838 "
+
 1485894059 i:\documents and settings\gustavo\escritorio\prog\c\estring\estring.h
+
+1485921285 source:/home/gustavo/Escritorio/prog/C/estringC/main.c
+	<stdio.h>
+	<stdlib.h>
+	"estring.h"
+	<string.h>
+
+1485921271 /home/gustavo/Escritorio/prog/C/estringC/estring.h
+
+1485920688 source:/home/gustavo/Escritorio/prog/C/estringC/estring.c
+	<stdio.h>
+	"estring.h"
 

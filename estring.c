@@ -4,9 +4,18 @@
 estring* setEstring()
 {
     estring* estringRetorno;
-    estringRetorno = malloc(sizeof(char) * MAX);
+    estringRetorno = (estring*) malloc(sizeof(estring));
+    estringRetorno->buffer = (char*) malloc(sizeof(char)* 256);
 
-    scanf("%[^\n]s", estringRetorno->buffer);
+
+    if(estringRetorno != NULL)
+    {
+        scanf("%[^\n]s", estringRetorno->buffer);
+    }
+    else
+    {
+        printf("TERRIBLE ERROR");
+    }
 
     //estringRetorno = resize(estringRetorno);
     return estringRetorno;
@@ -45,5 +54,10 @@ estring* resize(estring *estringCrudo)
 
 int estring_lenght(estring* estringLongitud)
 {
-
+    int i = 0;
+    while( *(estringLongitud->buffer+i) != '\0')
+    {
+        i++;
+    }
+    return i;
 }

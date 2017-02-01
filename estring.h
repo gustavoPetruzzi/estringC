@@ -8,6 +8,7 @@ typedef struct estring
 estring* setEstring();
 estring* resize(estring *estring);
 void printString(estring *estring);
+int estring_lenght(estring* estringLongitud);
 estring* concat(estring primerEstring, estring segundoEstring);
 
 #endif
